@@ -1,0 +1,58 @@
+# ログファイル
+*.log
+
+# 実行可能ファイル
+*.exe
+*.out
+*.o
+*.app
+
+# テンポラリファイル
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.cache
+
+# OS 生成ファイル
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE/エディタ生成ファイル
+*.sublime*
+*.idea/
+*.vscode/
+*.project
+*.c9/
+
+# Python関連
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.venv/
+*.virtualenv/
+*.pypy/
+
+# Node.js関連
+node_modules/
+npm-debug.log
+
+# ビルドディレクトリ
+build/
+dist/
+
+# その他
+*.db
+*.sqlite
+
+# 環境変数や秘密鍵などのセキュリティ関連ファイル
+.env
+*.pem
+*.key
