@@ -5,12 +5,12 @@
 - Docker がインストールされていることを確認してください。
 - Git がインストールされていることを確認してください。
 
-## 2. ディレクトリ構成の準備
+## 2. リポジトリのクローン
 
-プロジェクトのルートディレクトリを作成し、その中に Dockerfile を配置します。
+GitHub リポジトリをローカルにクローンします。
 
 ```bash
-mkdir open-interpreter-docker
+git clone https://github.com/ungeism/open-interpreter-docker.git
 cd open-interpreter-docker
 ```
 
