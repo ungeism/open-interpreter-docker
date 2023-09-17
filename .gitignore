@@ -56,3 +56,9 @@ dist/
 .env
 *.pem
 *.key
+
+# interpreterでimport / exportするファイル
+/data/import/*
+!/data/import/.gitkeep
+/data/export/*
+!/data/export/.gitkeep
